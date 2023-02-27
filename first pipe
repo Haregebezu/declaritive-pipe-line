@@ -19,6 +19,11 @@ stage('Deploy')
 steps{
 echo "Deploying the Project.........."
 }
+stage('Release')
+{
+steps{
+echo "Releasing the project.........."
+}
 }
 }
 }
